@@ -3,7 +3,7 @@
 <!-- GETTING STARTED -->
 ### Getting Started
 
-Let’s create a new directory:
+1. Let’s create a new directory:
 
 ```sh
 mkdir django_vuejs_tutorial
@@ -11,19 +11,19 @@ mkdir django_vuejs_tutorial
 cd django_vuejs_tutorial
 ```
 
-Create a new environment:
+2. Create a new environment:
 
 ```sh
 python3 -m venv myenv
 ```
 
-Activate the new virtual environment:
+3. Activate the new virtual environment:
 
 ```sh
 source myenv/bin/activate
 ```
 
-Config project database:
+4. Config project database:
 
 ```sh
 (myvenv) ~/django_vuejs_tutorial$ python manage.py makemigrations
@@ -31,7 +31,7 @@ Config project database:
 (myvenv) ~/django_vuejs_tutorial$ python manage.py migrate
 ```
 
-Run the project:
+5. Run the project:
 
 ```sh
 (myvenv) ~/django_vuejs_tutorial$ python manage.py runserver
